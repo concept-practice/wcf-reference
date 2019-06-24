@@ -1,0 +1,8 @@
+﻿<%@ 
+    ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="wcf_service_app.IFlightService, wcf-service-app" 
+    Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf"
+    CodeBehind="FlightService.svc.cs"
+%>
